@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: shopsense
+    runtime: python
+    plan: free
+    buildCommand: "python make_sample.py"
+    startCommand: "python server.py"
